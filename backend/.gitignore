@@ -1,0 +1,8 @@
+proto/
+__pycache__/
+mosquitto/
+postgres/
+.idea/
+.vscode/
+data/
+log/

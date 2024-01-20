@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ESPSetup {
+  string device_name = 1;
+  uint32 room_id = 2;
+}

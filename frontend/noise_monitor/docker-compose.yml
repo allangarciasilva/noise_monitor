@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  flutter:
+    build: .
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
+    env_file:
+      - .env
+    privileged: true

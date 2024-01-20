@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message NoiseMeasurement {
+  string device_name = 1;
+  float noise_value = 2;
+}

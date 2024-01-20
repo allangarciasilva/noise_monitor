@@ -1,0 +1,2 @@
+ESPConfig.wifiSsid max_size:32
+ESPConfig.wifiPassword max_size:64

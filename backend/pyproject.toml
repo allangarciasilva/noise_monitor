@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "SSC0952"
+version = "0.1.0"
+description = ""
+authors = ["Allan Garcia", "Eduarda Neumann", "Bruna Baricatti"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.23"
+pydantic-settings = "^2.0.3"
+psycopg2-binary = "^2.9.9"
+paho-mqtt = "^1.6.1"
+google = "^3.0.0"
+protobuf = "^4.25.0"
+grpcio-tools = "^1.59.2"
+fastapi = {extras = ["all"], version = "^0.104.1"}
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
